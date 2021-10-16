@@ -2,3 +2,13 @@ body {
     background-color: #121212;
     color: #ffffff;
 }
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr repeat(4, 1fr);
+    grid-template-rows: 1fr 8fr 1fr;
+    grid-template-areas:
+    "hd hd hd hd hd"
+    "main main main sd sd"
+    "ft ft ft ft ft";
+}
