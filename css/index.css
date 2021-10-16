@@ -9,6 +9,22 @@ body {
     grid-template-rows: 1fr 8fr 1fr;
     grid-template-areas:
     "hd hd hd hd hd"
-    "main main main sd sd"
+    "main main main sub sub"
     "ft ft ft ft ft";
+}
+
+.header {
+    grid-area: hd;
+}
+
+.main {
+    grid-area: main;
+}
+
+.sub {
+    grid-area: sub;
+}
+
+.ft {
+    grid-area: ft;
 }
