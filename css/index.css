@@ -44,3 +44,10 @@ body {
 .ft {
     grid-area: ft;
 }
+
+/* for card */
+.card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
