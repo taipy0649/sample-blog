@@ -23,6 +23,10 @@ body {
     margin: 30px;
 }
 
+.logo {
+    margin-left: 10vw;
+}
+
 /* make navigation on header */
 .nav {
     display: flex;
