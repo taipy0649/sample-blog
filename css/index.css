@@ -29,6 +29,8 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     list-style: none;
+    gap: 10vw;
+    padding: 0;
 }
 
 .main {
