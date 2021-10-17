@@ -51,3 +51,10 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+.back-img-one {
+    background-image: url("../image/hanabi_family.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100px;
+}
