@@ -1,8 +1,10 @@
+/* turn on black mode */
 body {
     background-color: #121212;
     color: #ffffff;
 }
 
+/* make grid container */
 .container {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -12,6 +14,7 @@ body {
     "ft ft ft ft ft ft";
 }
 
+/* make header has logo and navi */
 .header {
     grid-area: hd;
     display: flex;
@@ -36,6 +39,7 @@ body {
     padding: 0;
 }
 
+/* make navi looks better */
 .nav li {
     background-color: hsl(0, 0%, 12%);
     padding: 10px;
@@ -46,39 +50,7 @@ body {
     grid-area: main;
 }
 
-.sub {
-    grid-area: sub;
-}
-
-.intro-me {
-    background-color: hsl(0, 0%, 12%);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin-top: 30px;
-    border-radius: 10px;
-}
-
-.ft {
-    grid-area: ft;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
-
-.ft a {
-    text-decoration: none;
-    color: white;
-}
-
-.ft a:hover {
-    text-decoration: underline;
-}
-
-/* for card */
+/* for card in main*/
 .card {
     display: flex;
     flex-direction: row;
@@ -108,3 +80,40 @@ body {
 .short-txt {
     margin-left: 30px;
 }
+
+/* make my sub and intro */
+.sub {
+    grid-area: sub;
+}
+
+.intro-me {
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.ft {
+    grid-area: ft;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+/* make footer link looks */
+.ft a {
+    text-decoration: none;
+    color: white;
+}
+
+/* when hover on the footer link */
+.ft a:hover {
+    text-decoration: underline;
+}
+
+
