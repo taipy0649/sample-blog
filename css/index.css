@@ -5,12 +5,12 @@ body {
 
 .container {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     grid-template-rows: 1fr 8fr 1fr;
     grid-template-areas:
-    "hd hd hd hd hd"
-    "main main main sub sub"
-    "ft ft ft ft ft";
+    "hd hd hd hd hd hd"
+    "main main main main sub sub"
+    "ft ft ft ft ft ft";
 }
 
 .header {
