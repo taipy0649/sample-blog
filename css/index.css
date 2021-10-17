@@ -16,8 +16,16 @@ body {
 .header {
     grid-area: hd;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
+}
+
+/* make navigation on header */
+.nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
 }
 
 .main {
