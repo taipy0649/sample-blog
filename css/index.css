@@ -57,6 +57,20 @@ body {
 
 .ft {
     grid-area: ft;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.ft a {
+    text-decoration: none;
+    color: white;
+}
+
+.ft a:hover {
+    text-decoration: underline;
 }
 
 /* for card */
