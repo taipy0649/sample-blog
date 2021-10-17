@@ -57,7 +57,16 @@ body {
     background-image: url("../image/hanabi_family.png");
     background-size: contain;
     background-repeat: no-repeat;
-    width: 100px;
+    width: 30%;
+    height: 100%;
+}
+
+.back-img-two {
+    background-image: url("../image/hanabi_kaichu.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 100%;
 }
 
 .short-txt {
