@@ -4,6 +4,15 @@ body {
     color: #ffffff;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 /* make grid container */
 .container {
     display: grid;
@@ -104,17 +113,6 @@ body {
     justify-content: center;
     align-items: center;
     gap: 10px;
-}
-
-/* make footer link looks */
-.ft a {
-    text-decoration: none;
-    color: white;
-}
-
-/* when hover on the footer link */
-.ft a:hover {
-    text-decoration: underline;
 }
 
 
