@@ -16,11 +16,23 @@ a:hover {
 /* make grid container */
 .container {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
     grid-template-areas:
-    "hd hd hd hd hd hd"
-    "main main main main sub sub"
-    "ft ft ft ft ft ft";
+    "hd"
+    "main"
+    "sub"
+    "ft";
+}
+
+@media (min-width: 700px) {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-areas:
+        "hd hd hd hd hd hd"
+        "main main main main sub sub"
+        "ft ft ft ft ft ft";
+    }
+
 }
 
 /* make header has logo and navi */
