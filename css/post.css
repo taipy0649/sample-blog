@@ -1,1 +1,12 @@
 @import url(./index.css);
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 30px;
+    height: 100vh;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+    text-align: center;
+}
