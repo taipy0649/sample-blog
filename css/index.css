@@ -58,6 +58,9 @@ a:hover {
 
 .main {
     grid-area: main;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 /* for card in main*/
@@ -66,7 +69,6 @@ a:hover {
     flex-direction: row;
     flex-wrap: wrap;
     margin: 30px;
-    height: 100vh;
     background-color: hsl(0, 0%, 12%);
     border-radius: 10px;
 }
